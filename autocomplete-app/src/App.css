@@ -1,0 +1,43 @@
+
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+input {
+  width: 200px;
+  padding: 8px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  max-width: 220px;
+  margin: 10px auto;
+  background-color: #fff;
+}
+
+li {
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+li:hover {
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+h1{
+  color: black;
+  background-color: rgb(225, 218, 218);
+  font-size: 40px;
+}

@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e6aad3;
+  }
+  
+ 
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    max-width: 450px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .card-container:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 16px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.2s ease;
+  }
+  
+  .search-input:focus {
+    border-color: #007bff;
+  }
+  
+  .search-button {
+    margin-top: 20px;
+    background-color: #222fc8;
+    color: #110d0d;
+    border: none;
+    border-radius: 5px;
+    padding: 0.75rem 1.25rem;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .search-button:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+  }
+
+  .suggestions-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #762cb7;
+    box-shadow: 0 4px 8px rgba(189, 59, 59, 0.1);
+  }
+  
+  .suggestion-item {
+    padding: 0.75rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+  
+  .suggestion-item:hover {
+    background-color: #f1f1f1;
+    color: #b7cd0f;
+  }
+  
